@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package>
+  <name>hexapod</name>
+  <version>0.0.0</version>
+  <description>Communication between ROS and XBee on hexapod robot</description>
+
+  <author email="lapandic.dzenan@gmail.com">Dzenan Lapandic</author>
+
+  <maintainer email="lapandic.dzenan@gmail.com">Dzenan Lapandic</maintainer>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>serial</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <run_depend>serial</run_depend>
+  <run_depend>std_msgs</run_depend>
+
+  <build_depend>sensor_msgs</build_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <run_depend>geometry_msgs</run_depend>
+</package>
